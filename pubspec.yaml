@@ -1,0 +1,565 @@
+name: technologies_icons_download_png_svg
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.16
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/app_icons/Screenshot_2024-12-17_182659-removebg-preview.svg
+    - assets/icons/aarch64/
+    - assets/icons/adonisjs/
+    - assets/icons/aftereffects/
+    - assets/icons/akka/
+    - assets/icons/algolia/
+    - assets/icons/alpinejs/
+    - assets/icons/amazonwebservices/
+    - assets/icons/anaconda/
+    - assets/icons/android/
+    - assets/icons/androidstudio/
+    - assets/icons/angular/
+    - assets/icons/angularjs/
+    - assets/icons/angularmaterial/
+    - assets/icons/ansible/
+    - assets/icons/antdesign/
+    - assets/icons/apache/
+    - assets/icons/apacheairflow/
+    - assets/icons/apachekafka/
+    - assets/icons/apachespark/
+    - assets/icons/apl/
+    - assets/icons/appcelerator/
+    - assets/icons/apple/
+    - assets/icons/appwrite/
+    - assets/icons/archlinux/
+    - assets/icons/arduino/
+    - assets/icons/argocd/
+    - assets/icons/astro/
+    - assets/icons/atom/
+    - assets/icons/awk/
+    - assets/icons/axios/
+    - assets/icons/azure/
+    - assets/icons/azuredevops/
+    - assets/icons/azuresqldatabase/
+    - assets/icons/babel/
+    - assets/icons/backbonejs/
+    - assets/icons/ballerina/
+    - assets/icons/bamboo/
+    - assets/icons/bash/
+    - assets/icons/beats/
+    - assets/icons/behance/
+    - assets/icons/bitbucket/
+    - assets/icons/blazor/
+    - assets/icons/blender/
+    - assets/icons/bootstrap/
+    - assets/icons/bower/
+    - assets/icons/browserstack/
+    - assets/icons/bulma/
+    - assets/icons/bun/
+    - assets/icons/c/
+    - assets/icons/cairo/
+    - assets/icons/cakephp/
+    - assets/icons/canva/
+    - assets/icons/capacitor/
+    - assets/icons/carbon/
+    - assets/icons/cassandra/
+    - assets/icons/centos/
+    - assets/icons/ceylon/
+    - assets/icons/chrome/
+    - assets/icons/circleci/
+    - assets/icons/clarity/
+    - assets/icons/clion/
+    - assets/icons/clojure/
+    - assets/icons/clojurescript/
+    - assets/icons/cloudflare/
+    - assets/icons/cloudflareworkers/
+    - assets/icons/cmake/
+    - assets/icons/codeac/
+    - assets/icons/codecov/
+    - assets/icons/codeigniter/
+    - assets/icons/codepen/
+    - assets/icons/coffeescript/
+    - assets/icons/composer/
+    - assets/icons/confluence/
+    - assets/icons/consul/
+    - assets/icons/contao/
+    - assets/icons/corejs/
+    - assets/icons/cosmosdb/
+    - assets/icons/couchbase/
+    - assets/icons/couchdb/
+    - assets/icons/cplusplus/
+    - assets/icons/crystal/
+    - assets/icons/csharp/
+    - assets/icons/css3/
+    - assets/icons/cucumber/
+    - assets/icons/cypressio/
+    - assets/icons/d3js/
+    - assets/icons/dart/
+    - assets/icons/datagrip/
+    - assets/icons/dataspell/
+    - assets/icons/dbeaver/
+    - assets/icons/debian/
+    - assets/icons/denojs/
+    - assets/icons/devicon/
+    - assets/icons/digitalocean/
+    - assets/icons/discordjs/
+    - assets/icons/django/
+    - assets/icons/djangorest/
+    - assets/icons/docker/
+    - assets/icons/doctrine/
+    - assets/icons/dot-net/
+    - assets/icons/dotnetcore/
+    - assets/icons/dreamweaver/
+    - assets/icons/dropwizard/
+    - assets/icons/drupal/
+    - assets/icons/dynamodb/
+    - assets/icons/eclipse/
+    - assets/icons/ecto/
+    - assets/icons/elasticsearch/
+    - assets/icons/electron/
+    - assets/icons/eleventy/
+    - assets/icons/elixir/
+    - assets/icons/elm/
+    - assets/icons/emacs/
+    - assets/icons/embeddedc/
+    - assets/icons/ember/
+    - assets/icons/envoy/
+    - assets/icons/erlang/
+    - assets/icons/eslint/
+    - assets/icons/express/
+    - assets/icons/facebook/
+    - assets/icons/fastapi/
+    - assets/icons/fastify/
+    - assets/icons/faunadb/
+    - assets/icons/feathersjs/
+    - assets/icons/fedora/
+    - assets/icons/figma/
+    - assets/icons/filezilla/
+    - assets/icons/firebase/
+    - assets/icons/firefox/
+    - assets/icons/flask/
+    - assets/icons/flutter/
+    - assets/icons/fortran/
+    - assets/icons/foundation/
+    - assets/icons/framermotion/
+    - assets/icons/framework7/
+    - assets/icons/fsharp/
+    - assets/icons/gatling/
+    - assets/icons/gatsby/
+    - assets/icons/gazebo/
+    - assets/icons/gcc/
+    - assets/icons/gentoo/
+    - assets/icons/ghost/
+    - assets/icons/gimp/
+    - assets/icons/git/
+    - assets/icons/gitbook/
+    - assets/icons/github/
+    - assets/icons/githubactions/
+    - assets/icons/githubcodespaces/
+    - assets/icons/gitlab/
+    - assets/icons/gitpod/
+    - assets/icons/gitter/
+    - assets/icons/go/
+    - assets/icons/godot/
+    - assets/icons/goland/
+    - assets/icons/google/
+    - assets/icons/googlecloud/
+    - assets/icons/gradle/
+    - assets/icons/grafana/
+    - assets/icons/grails/
+    - assets/icons/graphql/
+    - assets/icons/groovy/
+    - assets/icons/grpc/
+    - assets/icons/grunt/
+    - assets/icons/gulp/
+    - assets/icons/hadoop/
+    - assets/icons/handlebars/
+    - assets/icons/hardhat/
+    - assets/icons/harvester/
+    - assets/icons/haskell/
+    - assets/icons/haxe/
+    - assets/icons/helm/
+    - assets/icons/heroku/
+    - assets/icons/hibernate/
+    - assets/icons/homebrew/
+    - assets/icons/html5/
+    - assets/icons/hugo/
+    - assets/icons/ie10/
+    - assets/icons/ifttt/
+    - assets/icons/illustrator/
+    - assets/icons/influxdb/
+    - assets/icons/inkscape/
+    - assets/icons/insomnia/
+    - assets/icons/intellij/
+    - assets/icons/ionic/
+    - assets/icons/jaegertracing/
+    - assets/icons/jamstack/
+    - assets/icons/jasmine/
+    - assets/icons/java/
+    - assets/icons/javascript/
+    - assets/icons/jeet/
+    - assets/icons/jekyll/
+    - assets/icons/jenkins/
+    - assets/icons/jest/
+    - assets/icons/jetbrains/
+    - assets/icons/jetpackcompose/
+    - assets/icons/jira/
+    - assets/icons/jiraalign/
+    - assets/icons/jquery/
+    - assets/icons/json/
+    - assets/icons/jule/
+    - assets/icons/julia/
+    - assets/icons/junit/
+    - assets/icons/jupyter/
+    - assets/icons/k3os/
+    - assets/icons/k3s/
+    - assets/icons/k6/
+    - assets/icons/kaggle/
+    - assets/icons/karatelabs/
+    - assets/icons/karma/
+    - assets/icons/kdeneon/
+    - assets/icons/keras/
+    - assets/icons/kibana/
+    - assets/icons/knexjs/
+    - assets/icons/knockout/
+    - assets/icons/kotlin/
+    - assets/icons/krakenjs/
+    - assets/icons/ktor/
+    - assets/icons/kubernetes/
+    - assets/icons/labview/
+    - assets/icons/laravel/
+    - assets/icons/latex/
+    - assets/icons/less/
+    - assets/icons/linkedin/
+    - assets/icons/linux/
+    - assets/icons/liquibase/
+    - assets/icons/livewire/
+    - assets/icons/llvm/
+    - assets/icons/lodash/
+    - assets/icons/logstash/
+    - assets/icons/lua/
+    - assets/icons/lumen/
+    - assets/icons/magento/
+    - assets/icons/mariadb/
+    - assets/icons/markdown/
+    - assets/icons/materializecss/
+    - assets/icons/materialui/
+    - assets/icons/matlab/
+    - assets/icons/matplotlib/
+    - assets/icons/maven/
+    - assets/icons/maya/
+    - assets/icons/meteor/
+    - assets/icons/microsoftsqlserver/
+    - assets/icons/minitab/
+    - assets/icons/mithril/
+    - assets/icons/mobx/
+    - assets/icons/mocha/
+    - assets/icons/modx/
+    - assets/icons/moleculer/
+    - assets/icons/mongodb/
+    - assets/icons/mongoose/
+    - assets/icons/moodle/
+    - assets/icons/msdos/
+    - assets/icons/mysql/
+    - assets/icons/nano/
+    - assets/icons/neo4j/
+    - assets/icons/neovim/
+    - assets/icons/nestjs/
+    - assets/icons/netlify/
+    - assets/icons/networkx/
+    - assets/icons/nextjs/
+    - assets/icons/nginx/
+    - assets/icons/ngrx/
+    - assets/icons/nhibernate/
+    - assets/icons/nim/
+    - assets/icons/nimble/
+    - assets/icons/nixos/
+    - assets/icons/nodejs/
+    - assets/icons/nodemon/
+    - assets/icons/nodewebkit/
+    - assets/icons/nomad/
+    - assets/icons/norg/
+    - assets/icons/notion/
+    - assets/icons/npm/
+    - assets/icons/nuget/
+    - assets/icons/numpy/
+    - assets/icons/nuxtjs/
+    - assets/icons/oauth/
+    - assets/icons/objectivec/
+    - assets/icons/ocaml/
+    - assets/icons/ohmyzsh/
+    - assets/icons/okta/
+    - assets/icons/openal/
+    - assets/icons/openapi/
+    - assets/icons/opencl/
+    - assets/icons/opencv/
+    - assets/icons/opengl/
+    - assets/icons/openstack/
+    - assets/icons/opensuse/
+    - assets/icons/opentelemetry/
+    - assets/icons/opera/
+    - assets/icons/oracle/
+    - assets/icons/ory/
+    - assets/icons/p5js/
+    - assets/icons/packer/
+    - assets/icons/pandas/
+    - assets/icons/perl/
+    - assets/icons/pfsense/
+    - assets/icons/phalcon/
+    - assets/icons/phoenix/
+    - assets/icons/photonengine/
+    - assets/icons/photoshop/
+    - assets/icons/php/
+    - assets/icons/phpstorm/
+    - assets/icons/playwright/
+    - assets/icons/plotly/
+    - assets/icons/pnpm/
+    - assets/icons/podman/
+    - assets/icons/poetry/
+    - assets/icons/polygon/
+    - assets/icons/portainer/
+    - assets/icons/postcss/
+    - assets/icons/postgresql/
+    - assets/icons/postman/
+    - assets/icons/powershell/
+    - assets/icons/premierepro/
+    - assets/icons/prisma/
+    - assets/icons/processing/
+    - assets/icons/prolog/
+    - assets/icons/prometheus/
+    - assets/icons/protractor/
+    - assets/icons/pulsar/
+    - assets/icons/pulumi/
+    - assets/icons/puppeteer/
+    - assets/icons/purescript/
+    - assets/icons/putty/
+    - assets/icons/pycharm/
+    - assets/icons/pypi/
+    - assets/icons/pyscript/
+    - assets/icons/pytest/
+    - assets/icons/python/
+    - assets/icons/pytorch/
+    - assets/icons/qodana/
+    - assets/icons/qt/
+    - assets/icons/quarkus/
+    - assets/icons/quasar/
+    - assets/icons/qwik/
+    - assets/icons/r/
+    - assets/icons/rabbitmq/
+    - assets/icons/rails/
+    - assets/icons/railway/
+    - assets/icons/rancher/
+    - assets/icons/raspberrypi/
+    - assets/icons/reach/
+    - assets/icons/react/
+    - assets/icons/reactbootstrap/
+    - assets/icons/reactnavigation/
+    - assets/icons/reactrouter/
+    - assets/icons/readthedocs/
+    - assets/icons/realm/
+    - assets/icons/rect/
+    - assets/icons/redhat/
+    - assets/icons/redis/
+    - assets/icons/redux/
+    - assets/icons/renpy/
+    - assets/icons/replit/
+    - assets/icons/rider/
+    - assets/icons/rocksdb/
+    - assets/icons/rockylinux/
+    - assets/icons/rollup/
+    - assets/icons/ros/
+    - assets/icons/rspec/
+    - assets/icons/rstudio/
+    - assets/icons/ruby/
+    - assets/icons/rubymine/
+    - assets/icons/rust/
+    - assets/icons/rxjs/
+    - assets/icons/safari/
+    - assets/icons/salesforce/
+    - assets/icons/sanity/
+    - assets/icons/sass/
+    - assets/icons/scala/
+    - assets/icons/scalingo/
+    - assets/icons/scikitlearn/
+    - assets/icons/sdl/
+    - assets/icons/selenium/
+    - assets/icons/sema/
+    - assets/icons/sentry/
+    - assets/icons/sequelize/
+    - assets/icons/shopware/
+    - assets/icons/shotgrid/
+    - assets/icons/sketch/
+    - assets/icons/slack/
+    - assets/icons/socketio/
+    - assets/icons/solidity/
+    - assets/icons/solidjs/
+    - assets/icons/sonarqube/
+    - assets/icons/sourcetree/
+    - assets/icons/spack/
+    - assets/icons/splunk/
+    - assets/icons/spring/
+    - assets/icons/spss/
+    - assets/icons/spyder/
+    - assets/icons/sqlalchemy/
+    - assets/icons/sqldeveloper/
+    - assets/icons/sqlite/
+    - assets/icons/ssh/
+    - assets/icons/stackoverflow/
+    - assets/icons/stata/
+    - assets/icons/storybook/
+    - assets/icons/streamlit/
+    - assets/icons/stylus/
+    - assets/icons/subversion/
+    - assets/icons/supabase/
+    - assets/icons/svelte/
+    - assets/icons/swagger/
+    - assets/icons/swift/
+    - assets/icons/swiper/
+    - assets/icons/symfony/
+    - assets/icons/tailwindcss/
+    - assets/icons/tauri/
+    - assets/icons/tensorflow/
+    - assets/icons/terraform/
+    - assets/icons/tex/
+    - assets/icons/thealgorithms/
+    - assets/icons/threedsmax/
+    - assets/icons/threejs/
+    - assets/icons/titaniumsdk/
+    - assets/icons/tomcat/
+    - assets/icons/tortoisegit/
+    - assets/icons/towergit/
+    - assets/icons/traefikmesh/
+    - assets/icons/traefikproxy/
+    - assets/icons/travis/
+    - assets/icons/trello/
+    - assets/icons/trpc/
+    - assets/icons/twitter/
+    - assets/icons/typescript/
+    - assets/icons/typo3/
+    - assets/icons/ubuntu/
+    - assets/icons/unifiedmodelinglanguage/
+    - assets/icons/unity/
+    - assets/icons/unix/
+    - assets/icons/unrealengine/
+    - assets/icons/uwsgi/
+    - assets/icons/v8/
+    - assets/icons/vagrant/
+    - assets/icons/vala/
+    - assets/icons/vault/
+    - assets/icons/vercel/
+    - assets/icons/vertx/
+    - assets/icons/vim/
+    - assets/icons/visualbasic/
+    - assets/icons/visualstudio/
+    - assets/icons/vite/
+    - assets/icons/vitejs/
+    - assets/icons/vitess/
+    - assets/icons/vitest/
+    - assets/icons/vscode/
+    - assets/icons/vsphere/
+    - assets/icons/vuejs/
+    - assets/icons/vuestorefront/
+    - assets/icons/vuetify/
+    - assets/icons/vyper/
+    - assets/icons/wasm/
+    - assets/icons/webflow/
+    - assets/icons/weblate/
+    - assets/icons/webpack/
+    - assets/icons/webstorm/
+    - assets/icons/windows11/
+    - assets/icons/windows8/
+    - assets/icons/woocommerce/
+    - assets/icons/wordpress/
+    - assets/icons/xamarin/
+    - assets/icons/xcode/
+    - assets/icons/xd/
+    - assets/icons/xml/
+    - assets/icons/yaml/
+    - assets/icons/yarn/
+    - assets/icons/yii/
+    - assets/icons/yugabytedb/
+    - assets/icons/yunohost/
+    - assets/icons/zend/
+    - assets/icons/zig/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
