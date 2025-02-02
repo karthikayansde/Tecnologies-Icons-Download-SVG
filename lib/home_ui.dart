@@ -80,6 +80,7 @@ class _HomeUiState extends State<HomeUi> {
               : Expanded(
                   child: SingleChildScrollView(
                     child: Wrap(
+                      alignment: WrapAlignment.center,
                       children: [
                         for (int i = 0; i < filteredData.length; i++)
                           ...filteredData[i]['list'].map<Widget>((fileName) => CustomCard(
